@@ -24,7 +24,7 @@
 <body>
 
 <h1>Person List</h1>
-<h3>Server: <?php gethostname(); ?></h3>
+<h3>Server: <?php echo gethostname(); ?></h3>
 
 <table>
     <tr>
