@@ -24,14 +24,7 @@
 <body>
 
 <h1>Person List</h1>
-<h3>diakses via Node1</h3>
-<p>
-<?php
-$ip_address = $_SERVER["REMOTE_ADDR"];
-echo 'IP Address: ' .$ip_address .'<br>';
-echo 'Hostname: ' .gethostname();
-?>
-</p>
+<h3>Server: <?php gethostname(); ?></h3>
 
 <table>
     <tr>
