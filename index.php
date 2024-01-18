@@ -24,7 +24,10 @@
 <body>
 
 <h1>Person List</h1>
-<h3>Server: <?php echo gethostname(); ?></h3>
+<h3>
+    <p>Server: <?php echo gethostname(); ?></p>
+    <p>HTTP Port: <?php echo $_SERVER['SERVER_PORT']; ?></p>
+</h3>
 
 <table>
     <tr>
