@@ -69,7 +69,7 @@ Keterangan: x nomor undi
    ![](img2.png)
    ![](img3.png)
 
-9. Tambahkan minimal 1 baris data nama masing-masing pada tabel database tersebut
+9. Tambahkan minimal 1 baris data (nama masing-masing) pada tabel database tersebut
 
    ![](img4.png)
 
