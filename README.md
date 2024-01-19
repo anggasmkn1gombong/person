@@ -32,8 +32,8 @@ SMK Negeri 1 Gombong - 2024
 | --- | --- | --- | --- | --- | --- |
 | 1 | client | bridge | dhcp client | /24 | - |
 | 2 | node0 | bridge | dhcp client | /24 | - |
-| 3 | internal 1 | 10.10.1x.254 | /30 | - |
-| 5 | internal 2 | 10.10.2x.254 | /30 | - |
+| 3 | node0 | internal 1 | 10.10.1x.254 | /30 | - |
+| 5 | node0 | internal 2 | 10.10.2x.254 | /30 | - |
 | 6 | node1 | internal 1 | 10.10.1x.253 | /30 | - |
 | 7 | node2 | internal 2 | 10.10.2x.253 | /30 | - |
 
