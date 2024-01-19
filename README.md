@@ -46,7 +46,7 @@ Keterangan: x nomor undi
 | Node0 | hostname: loadbalancer, http port: 80, cpu: 2 cores, memory: 1024 MB, vga: 16 MB |
 | Node1 | hostname: backend1, http port: 8080, cpu: 2 cores, memory: 512 MB, vga: 16 MB |
 | Node2 | hostname: backend2, http port: 8081, cpu: 2 cores, memory: 512 MB, vga: 16 MB |
-| Operating System | Debian 12 username: debian password: debian |
+| Operating System | Debian 12, username: debian, password: debian |
 | Remote | SSH, Putty |
 | Web Server, Load Balancer | NGINX |
 | Project Path | /var/www/html/person |
@@ -54,24 +54,25 @@ Keterangan: x nomor undi
 | Networking | CIDR, Bridge (Internet), Internal Network (Private) |
 | Programming | PHP (php, php-fpm, php-mysql), SQL Query |
 | Version Control, Repository | Git, Github |
-| Project | [https://github.com/anggasmkn1gombong/person.git](https://github.com/anggasmkn1gombong/StudentCRUD.git) |
+| Projek | [https://github.com/anggasmkn1gombong/person](https://github.com/anggasmkn1gombong/StudentCRUD) |
 
 ## Instruksi
 
-1. Peserta melakukan konfigurasi infrastruktur jaringan maupun vps untuk men-deploy projek supaya alamat loadbalancer bisa diakses web browser melalui jaringan
-2. Web server dibuat menggunakan NGINX sekaligus sebagai load balancer
+1. Peserta melakukan konfigurasi infrastruktur jaringan maupun administrasi server untuk men-deploy sebuah projek web
+2. Hasil akhir yaitu client dapat mengakses alamat IP loadbalancer
 3. Gunakan jaringan internet jika diperlukan untuk mendownload paket aplikasi yang dibutuhkan
-4. Atur kredensial sesuai projek web untuk kebutuhan koneksi aplikasi terhadap database server
-5. Lakukan import data pada database server
-6. Setelah terkoneksi dengan database server, lengkapi pemrograman pada aplikasi agar database dapat tampil pada projek web diakses menggunakan web browser
-7. Jika alamat loadbalancer diakses maka web muncul dengan sebagai tabel berikut dan menampilkan semua record/data pada database bergantian secara random muncul dari backend1 maupun backend2 jika di-refresh secara terus menerus
+5. Atur kredensial sesuai kebutuhan projek web untuk koneksi antara aplikasi dengan database
+6. Import file *.sql yang disediakan pada database server agar tersedia dummy record pada tabel database
+7. Setelah terkoneksi dengan database server, lengkapi pemrograman pada aplikasi agar data dapat tampil
+8. Jika alamat loadbalancer berjalan sesuai rencana, maka web muncul dengan sebagai tabel berikut dan menampilkan semua record/data pada database bergantian secara random muncul dari backend1 maupun backend2 jika di-refresh secara terus menerus
 
-   - ![](img2.png)
-   - ![](img3.png)
+   ![](img2.png)
+   ![](img3.png)
 
-8. Buatlah repository baru dengan personlist pada GitHub, gunakan untuk mengupload ulang file
+9. Tambahkan minimal 1 baris data nama masing-masing pada tabel database tersebut
+10. Buatlah repository baru dengan personlist pada GitHub, gunakan untuk mengupload ulang file
 
-   - modifikasi file \*.php dan \*.sql
+   - modifikasi file *.php dan *.sql
    - konfigurasi nginx pada backend1
    - konfigurasi nginx pada backend2
    - konfigurasi nginx pada loadbalancer
