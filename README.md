@@ -24,7 +24,9 @@ SMK Negeri 1 Gombong - 2024
 
 ## Topologi Jaringan
 
-## ![](RackMultipart20240119-1-7kizu4_html_5fc319508924a28d.png) Tabel Pengalamatan
+![](img1.png) 
+
+## Tabel Pengalamatan
 
 | No | Perangkat | Network type | IP Address | Subnet Mask | Gateway |
 | --- | --- | --- | --- | --- | --- |
@@ -64,9 +66,9 @@ Keterangan: x nomor undi
 6. Setelah terkoneksi dengan database server, lengkapi pemrograman pada aplikasi agar database dapat tampil pada projek web diakses menggunakan web browser
 7. Jika alamat loadbalancer diakses maka web muncul dengan sebagai tabel berikut dan menampilkan semua record/data pada database bergantian secara random muncul dari backend1 maupun backend2 jika di-refresh secara terus menerus
 
-![](RackMultipart20240119-1-7kizu4_html_5073b5a85aa70b11.png)
+  ![](img2.png)
 
-![](RackMultipart20240119-1-7kizu4_html_7d51b9fb52057100.png)
+  ![](img3.png)
 
 1. Buatlah repository baru dengan personlist pada GitHub, gunakan untuk mengupload ulang file
   1. modifikasi file \*.php dan \*.sql
