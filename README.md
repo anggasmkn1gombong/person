@@ -66,15 +66,15 @@ Keterangan: x nomor undi
 6. Setelah terkoneksi dengan database server, lengkapi pemrograman pada aplikasi agar database dapat tampil pada projek web diakses menggunakan web browser
 7. Jika alamat loadbalancer diakses maka web muncul dengan sebagai tabel berikut dan menampilkan semua record/data pada database bergantian secara random muncul dari backend1 maupun backend2 jika di-refresh secara terus menerus
 
-    1. ![](img2.png)
-    2. ![](img3.png)
+   - ![](img2.png)
+   - ![](img3.png)
 
 8. Buatlah repository baru dengan personlist pada GitHub, gunakan untuk mengupload ulang file
-    
-    1. modifikasi file \*.php dan \*.sql
-    2. konfigurasi nginx pada backend1
-    3. konfigurasi nginx pada backend2
-    4. konfigurasi nginx pada loadbalancer
+
+   - modifikasi file \*.php dan \*.sql
+   - konfigurasi nginx pada backend1
+   - konfigurasi nginx pada backend2
+   - konfigurasi nginx pada loadbalancer
 
 ## Referensi
 
