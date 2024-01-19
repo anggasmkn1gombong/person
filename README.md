@@ -43,9 +43,9 @@ Keterangan: x nomor undi
 
 | VPS Compute | VirtualBox VMs |
 | --- | --- |
-| Node0 | hostname: loadbalancer, http port: 80, cpu: 2 cores, memory: 1024 MB, vga: 16 MB |
-| Node1 | hostname: backend1, http port: 8080, cpu: 2 cores, memory: 512 MB, vga: 16 MB |
-| Node2 | hostname: backend2, http port: 8081, cpu: 2 cores, memory: 512 MB, vga: 16 MB |
+| Node0 | hostname: loadbalancer, http port: 80, cpu: 2 cores, memory: 1024 MB, vga: 16 MB, service: loadbalancer, db server |
+| Node1 | hostname: backend1, http port: 8080, cpu: 2 cores, memory: 512 MB, vga: 16 MB, service: web server |
+| Node2 | hostname: backend2, http port: 8081, cpu: 2 cores, memory: 512 MB, vga: 16 MB, service: web server |
 | Operating System | Debian 12, username: debian, password: debian |
 | Remote | SSH, Putty |
 | Web Server, Load Balancer | NGINX |
