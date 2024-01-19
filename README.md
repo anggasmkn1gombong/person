@@ -70,9 +70,13 @@ Keterangan: x nomor undi
    ![](img3.png)
 
 9. Tambahkan minimal 1 baris data nama masing-masing pada tabel database tersebut
-10. Buatlah repository baru dengan personlist pada GitHub, gunakan untuk mengupload ulang file
 
-   - modifikasi file *.php dan *.sql
+   ![](img4.png)
+
+11. Buatlah repository baru dengan personlist pada GitHub, gunakan untuk mengupload ulang file
+
+   - modifikasi file *.php
+   - hasil export file *.sql
    - konfigurasi nginx pada backend1
    - konfigurasi nginx pada backend2
    - konfigurasi nginx pada loadbalancer
