@@ -64,12 +64,14 @@ Keterangan: x nomor undi
 5. Atur kredensial sesuai kebutuhan projek web untuk koneksi antara aplikasi dengan database
 6. Import file *.sql yang disediakan pada database server agar tersedia dummy record pada tabel database
 7. Setelah terkoneksi dengan database server, lengkapi pemrograman pada aplikasi agar data dapat tampil
-8. Jika alamat loadbalancer berjalan sesuai rencana, maka web muncul dengan sebagai tabel berikut dan menampilkan semua record/data pada database bergantian secara random muncul dari backend1 maupun backend2 jika di-refresh secara terus menerus
+8. Jika alamat loadbalancer berjalan sesuai ekspektasi, maka web muncul dengan sebagai tabel berikut
 
+   >menampilkan semua record/data pada database bergantian secara random muncul dari backend1 maupun backend2 jika di-refresh secara terus menerus
+   
    ![](img2.png)
    ![](img3.png)
 
-9. Tambahkan minimal 1 baris data (nama masing-masing) pada tabel database tersebut
+10. Tambahkan minimal 1 baris data (nama masing-masing) pada tabel database tersebut
 
    ![](img4.png)
 
